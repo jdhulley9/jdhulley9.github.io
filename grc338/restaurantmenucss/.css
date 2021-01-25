@@ -1,0 +1,16 @@
+/*CSS DOCUMENT*/
+h2 {
+font-family: brush script mt;
+}
+.appetizers {
+color: rgb(225, 0, 0);
+}
+.salads {
+color: rgb(0, 225, 0);
+}
+.entrees {
+color: rgb(0, 0, 225);
+}
+.dessert {
+color: rgb(128, 0, 128);
+}
