@@ -2,15 +2,9 @@
 h2{
 font-family: sans-serif;
 }
-.appetizers{
-color: rgb(225, 0, 0);
+h2{
+color: rgb(128, 0, 32);
 }
-.salads{
-color: rgb(0, 225, 0);
-}
-.entrees{
-color: rgb(0, 0, 225);
-}
-.dessert{
-color: rgb(128, 0, 128);
+h3{
+color: rgb(218, 165, 32);
 }
