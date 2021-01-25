@@ -1,5 +1,7 @@
 /*CSS DOCUMENT*/
-list-style: none;
+ul {
+  list-style: none;
+}
 h2{
 font-family: sans-serif;
 color: rgb(128, 0, 32);
