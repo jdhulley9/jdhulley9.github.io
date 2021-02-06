@@ -35,6 +35,9 @@ h3{
     font-family: serif;
     color: rgb(111, 78, 55);
 }
+body {
+    background-color: rgb(245, 245, 220);
+}
 img {
     width: 100%; /*Please leave this line.*/
 }
