@@ -11,10 +11,10 @@ header{
     grid-column: 1/4;
 }
 figure{
-    grid-column: 75% 25%
+    grid-row: 75% 25%
 }
 main{
-    grid-column: 50% 50%    
+    grid-row: 50% 50%    
 }
 footer{
     grid-column: 1/4;
