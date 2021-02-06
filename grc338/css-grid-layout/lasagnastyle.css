@@ -1,0 +1,42 @@
+/*CSS DOCUMENT*/
+
+div.container{
+    display: grid;
+    max-width: 40em;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);       
+}
+header{
+    grid-column: 1/4;
+}
+figure{
+    grid-column: 75% 25%
+}
+main{
+    grid-column: 50% 50%    
+}
+footer{
+    grid-column: 1/4;
+}
+
+h1{
+    font-family: serif;
+    text-align: center;
+    color: rgb(218, 165, 32);
+    background-color: rgb(128, 0, 32);
+}
+h2{
+    font-family: serif;
+    text-align: center;
+    color: rgb(128, 0, 32);
+}
+h3{
+    font-family: serif;
+    color: rgb(111, 78, 55);
+}
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
