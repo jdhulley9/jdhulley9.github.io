@@ -22,13 +22,13 @@ footer{
 
 h1{
     font-family: serif;
-    text-align: center;
+    text-align: left;
     color: rgb(218, 165, 32);
     background-color: rgb(128, 0, 32);
 }
 h2{
     font-family: serif;
-    text-align: center;
+    text-align: left;
     color: rgb(128, 0, 32);
 }
 h3{
