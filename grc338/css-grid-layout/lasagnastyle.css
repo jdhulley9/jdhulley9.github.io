@@ -13,6 +13,12 @@ header{
 figure{
     grid-column: 1/4;
 }
+figure img{
+    grid-column: 75%
+}
+figure figcaption{
+    grid-column: 25%
+}
 main{ 
     grid-column: 1/4;
 }
