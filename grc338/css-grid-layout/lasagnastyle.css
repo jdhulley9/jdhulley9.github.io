@@ -9,10 +9,10 @@ div.container{
     grid-template-rows: repeat(2, 1fr);
 }
 header{
-    grid-column: 1/4;
+    grid-column: 1/2;
 }
 figure{
-    grid-column: 1/4;
+    grid-column: 1/2;
 }
 figure img{
     grid-column: 75%, 25%;
