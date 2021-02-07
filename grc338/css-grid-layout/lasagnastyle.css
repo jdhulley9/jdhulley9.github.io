@@ -14,19 +14,19 @@ header{
 figure{
     grid-column: 1/4;
 }
-.img{
+figure img{
     grid-column: 75%, 25%;
 }
-.figcaption{
+figure figcaption{
     grid-column: 25%, 75%;
 }
 main{ 
     grid-column: 1/4;
 }
-.ingredients{
+main ingredients{
     grid-column: 50%, 50%;
 }
-.directions{
+main directions{
     grid-column: 50%, 50%;
 }
 footer{
