@@ -4,15 +4,17 @@ div.container{
     display: grid;
     max-width: 40em;
     margin: 0 auto;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(2fr, 1fr);
     grid-template-rows: repeat(4, 1fr);       
 }
 header{
     grid-column: 1/4;
 }
 figure{
+    grid-column: 1/4;
 }
-main{    
+main{ 
+    grid-column: 1/4;
 }
 footer{
     grid-column: 1/4;
