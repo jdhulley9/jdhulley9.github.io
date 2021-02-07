@@ -1,17 +1,12 @@
+/*CSS DOCUMENT*/
+
 div.container{
     display: grid;
     max-width: 40em;
     margin: 0 auto;
     grid-gap: 1em;
     grid-template-columns: repeat(2fr, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-        "header"
-        "figure img"
-        "figure figcaption"
-        "main ingredients"
-        "main directions"
-        "footer"
+    grid-template-rows: repeat(4, 1fr);
 }
 header{
     grid-column: 1/4;
@@ -19,20 +14,20 @@ header{
 figure{
     grid-column: 1/4;
 }
-figure img{
+.img{
     grid-column: 75%, 25%;
 }
-figure figcaption{
+.figcaption{
     grid-column: 25%, 75%;
 }
 main{ 
     grid-column: 1/4;
 }
-main ingredients{
-    grid-column: 50%, 50%
+.ingredients{
+    grid-column: 50%, 50%;
 }
-main directions{
-    grid-column: 50%, 50%
+.directions{
+    grid-column: 50%, 50%;
 }
 footer{
     grid-column: 1/4;
