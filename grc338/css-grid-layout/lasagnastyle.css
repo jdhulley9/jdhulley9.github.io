@@ -16,14 +16,6 @@ figure{
     grid-template-columns: 75% 25%;
     margin: auto;
 }
-img{
-    column-width: 75%;
-    grid-column: 2/4
-}
-figcaption{
-    column-width: 25%;
-    grid-column: 2/4
-}
 main{ 
     grid-area: main;
     display: grid;
