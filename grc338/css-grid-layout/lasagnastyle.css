@@ -14,7 +14,7 @@ header{
 figure{
     display: grid;
     grid-template-columns: 75% 25%;
-    margin: auto;
+    margin: 1em 0em 0em 0em;
     grid-column: 1/4
 }
 img{
@@ -26,7 +26,7 @@ figcaption{
 main{ 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: auto;
+    margin: 2em 0em 0em 0em;
     grid-column: 1/4
 }
 .ingredients{
@@ -37,6 +37,7 @@ main{
 }
 footer{
     grid-column: 1/4;
+    margin: 3em 0em 0em 0em;
 }
 
 h1{
