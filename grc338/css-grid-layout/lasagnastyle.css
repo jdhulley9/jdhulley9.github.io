@@ -9,7 +9,7 @@ div.container{
     grid-template-rows: repeat(1, 4fr);
 }
 header{
-    grid-column: 1/2;
+    grid-template-columns: 100%;
 }
 figure{
     display: grid;
@@ -35,7 +35,7 @@ main{
     column-width: 50%;
 }
 footer{
-    grid-column: 1/2;
+    grid-template-columns: 100%;
 }
 
 h1{
