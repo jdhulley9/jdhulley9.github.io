@@ -12,16 +12,21 @@ header{
     grid-column: 1/2;
 }
 figure{
-    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: auto;
 }
-.img{
+img{
     column-width: 75%;
 }
-.figcaption{
+figcaption{
     column-width: 25%;
 }
 main{ 
-    grid-column: 1/2;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
 }
 .ingredients{
     column-width: 50%;
