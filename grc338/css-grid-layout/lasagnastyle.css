@@ -10,12 +10,13 @@ div.container{
 }
 header{
     grid-column: 1/4;
+    margin: 0em 0em 5em 0em;
 }
 figure{
     display: grid;
     grid-template-columns: 75% 25%;
-    margin: 1em 0em 0em 0em;
-    grid-column: 1/4
+    margin: 5em 0em 0em 0em;
+    grid-column: 1/4;
 }
 img{
     column-width: 75%;
@@ -26,8 +27,8 @@ figcaption{
 main{ 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 2em 0em 0em 0em;
-    grid-column: 1/4
+    margin: 8em 0em 0em 0em;
+    grid-column: 1/4;
 }
 .ingredients{
     column-width: 50%;
@@ -37,7 +38,7 @@ main{
 }
 footer{
     grid-column: 1/4;
-    margin: 3em 0em 0em 0em;
+    margin: 11em 0em 0em 0em;
 }
 
 h1{
