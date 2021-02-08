@@ -5,11 +5,11 @@ div.container{
     max-width: 40em;
     margin: 0 auto;
     grid-gap: 1em;
-    grid-template-columns: repeat(1fr, 2fr);
-    grid-template-rows: repeat(1fr, 4fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 header{
-    grid-template-columns: 1/2;
+    grid-column: 1/4;
 }
 figure{
     display: grid;
@@ -35,7 +35,7 @@ main{
     column-width: 50%;
 }
 footer{
-    grid-template-columns: 1/2;
+    grid-column: 1/4;
 }
 
 h1{
