@@ -12,9 +12,16 @@ header{
     grid-column: 1/4;
 }
 figure{
+    grid-area: figure;
     display: grid;
     grid-template-columns: 75% 25%;
     margin: auto;
+}
+img{
+    column-width: 75%;
+}
+figcaption{
+    column-width: 25%;
 }
 main{ 
     grid-area: main;
