@@ -12,16 +12,22 @@ header{
     grid-column: 1/2;
 }
 figure{
-    grid-template-columns: 70% auto;
+    grid-column: 1/2;
+}
+.img{
+    column-width: 75%;
+}
+.figcaption{
+    column-width: 25%;
 }
 main{ 
     grid-column: 1/2;
 }
 .ingredients{
-    margin-left: 1em;
+    column-width: 50%;
 }
 .directions{
-    margin-right: 2em;
+    column-width: 50%;
 }
 footer{
     grid-column: 1/2;
