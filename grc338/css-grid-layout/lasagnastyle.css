@@ -20,7 +20,6 @@ figure{
 }
 img{
     column-width: 75%;
-    margin: 0em 1em 0em 0em
 }
 figcaption{
     column-width: 25%;
@@ -28,7 +27,7 @@ figcaption{
 main{ 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 32em 0em 0em 0em;
+    margin: 22em 0em 0em 0em;
     grid-column: 1/4;
 }
 .ingredients{
@@ -39,7 +38,7 @@ main{
 }
 footer{
     grid-column: 1/4;
-    margin: 64em 0em 0em 0em;
+    margin: 55em 0em 0em 0em;
     background-color: rgb(218, 165, 32);
 }
 
@@ -63,4 +62,5 @@ body {
 }
 img {
     width: 100%; /*Please leave this line.*/
+    margin: 0em 1em 0em 0em
 }
