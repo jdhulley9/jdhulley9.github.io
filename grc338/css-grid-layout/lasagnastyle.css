@@ -28,7 +28,7 @@ figcaption{
 main{ 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 16em 0em 0em 0em;
+    margin: 32em 0em 0em 0em;
     grid-column: 1/4;
 }
 .ingredients{
@@ -39,7 +39,8 @@ main{
 }
 footer{
     grid-column: 1/4;
-    margin: 32em 0em 0em 0em;
+    margin: 64em 0em 0em 0em;
+    background-color: rgb(218, 165, 32);
 }
 
 h1{
