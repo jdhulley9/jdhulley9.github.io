@@ -3,6 +3,7 @@
 h1{
 font-family: cursive;
 text-decoration: none;
+align-content: center;
 }
 h2{
 font-family: serif;
@@ -14,7 +15,16 @@ font-family: serif;
 body{
 background-color: rgb(240, 204, 221)    
 }
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: cursive;
+}
+nav ul li a{
+    text-decoration: none;
+}
 
 img {
-    width: 50%; 
+    width: 100%; 
 }
