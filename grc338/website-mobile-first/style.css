@@ -1,11 +1,15 @@
 /*CSS DOCUMENT*/
 
+h1{
+font-family: cursive;
+text-decoration: none;
+}
 h2{
-font-family: cortado;
+font-family: serif;
 color: rgb(105, 191, 100);
 }
 h3{
-font-family: dico typewriter;
+font-family: serif;
 }
 body{
 background-color: rgb(240, 204, 221)    
