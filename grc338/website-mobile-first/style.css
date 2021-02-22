@@ -2,8 +2,6 @@
 
 h1{
 font-family: cursive;
-text-decoration: none;
-align-content: center;
 }
 h2{
 font-family: serif;
@@ -22,7 +20,11 @@ nav ul li{
     font-family: cursive;
 }
 nav ul li a{
+    color: #222222;
     text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(105, 191, 100);
 }
 
 img {
