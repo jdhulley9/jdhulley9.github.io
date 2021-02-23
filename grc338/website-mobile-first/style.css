@@ -11,7 +11,8 @@ h3{
 font-family: serif;
 }
 body{
-background-color: rgb(240, 204, 221)    
+background-color: rgb(240, 204, 221);
+align-content: center;
 }
 nav ul li{
     display: inline;
