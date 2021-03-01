@@ -1,14 +1,21 @@
 /*CSS DOCUMENT*/
 
 h1{
-font-family: cursive;
+font-family: feltro-normal, sans-serif;
+font-weight: 500;
+font-style: normal;
+
 }
 h2{
-font-family: serif;
+font-family: semplicitapro, sans-serif;
+font-weight: 700;
+font-style: normal;
 color: rgb(87, 107, 47);
 }
 h3{
-font-family: serif;
+Font-family: semplicitapro, sans-serif;
+Font-weight: 400;
+Font-style: italic;
 }
 body{
 background-color: rgb(240, 204, 221);   
