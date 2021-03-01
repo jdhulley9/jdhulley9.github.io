@@ -1,0 +1,38 @@
+/*CSS DOCUMENT*/
+
+h1{
+font-family: cursive;
+}
+h2{
+font-family: serif;
+color: rgb(87, 107, 47);
+}
+h3{
+font-family: serif;
+}
+body{
+background-color: rgb(240, 204, 221);   
+text-align: left;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: cursive;
+}
+nav ul li a{
+    color: #222222;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(105, 191, 100);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    width: 100%; 
+}
