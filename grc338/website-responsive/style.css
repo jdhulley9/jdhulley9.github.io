@@ -4,7 +4,6 @@ h1{
 font-family: feltro-normal, sans-serif;
 font-weight: 500;
 font-style: normal;
-
 }
 h2{
 font-family: semplicitapro, sans-serif;
@@ -13,9 +12,14 @@ font-style: normal;
 color: rgb(87, 107, 47);
 }
 h3{
-Font-family: semplicitapro, sans-serif;
-Font-weight: 400;
-Font-style: italic;
+font-family: semplicitapro, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+p{
+font-family: semplicitapro, sans-serif;
+font-weight: 400;
+font-style: italic;    
 }
 body{
 background-color: rgb(240, 204, 221);   
@@ -25,7 +29,9 @@ nav ul li{
     display: inline;
     list-style-type: none;
     margin-right: 1em;
-    font-family: cursive;
+    font-family: feltro-normal, sans serif;
+    font-weight: 500;
+    font-style: normal;
 }
 nav ul li a{
     color: #222222;
