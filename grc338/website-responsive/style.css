@@ -4,7 +4,8 @@ h1{
 font-family: feltro-normal, sans-serif;
 font-weight: 500;
 font-style: normal;
-width: 30%
+width: 30%;
+align-content: center;
 }
 h2{
 font-family: semplicitapro, sans-serif;
@@ -33,6 +34,7 @@ nav ul li{
     font-family: feltro-normal, sans serif;
     font-weight: 500;
     font-style: normal;
+    text-align: center;
 }
 nav ul li a{
     color: #222222;
@@ -51,6 +53,7 @@ figure{
     margin-left: 0;
     padding-left: 0;
 }
+
 img {
     width: 100%; 
 }
