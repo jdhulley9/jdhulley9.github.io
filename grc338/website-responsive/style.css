@@ -29,7 +29,7 @@ text-align: left;
 nav ul li{
     display: inline;
     list-style-type: none;
-    text-align: center;
+    margin-right: 1em;
     font-family: feltro-normal, sans serif;
     font-weight: 500;
     font-style: normal;
