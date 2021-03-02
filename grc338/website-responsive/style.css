@@ -45,6 +45,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+figure{
+    width: 50%
+}
 
 img {
     width: 100%; 
