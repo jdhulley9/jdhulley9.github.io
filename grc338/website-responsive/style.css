@@ -4,7 +4,7 @@ h1{
 font-family: feltro-normal, sans-serif;
 font-weight: 500;
 font-style: normal;
-width: 30%;
+width: 50%;
 align-content: center;
 }
 h2{
@@ -49,7 +49,7 @@ ul {
   padding: 0;
 }
 figure{
-    width: 30%;
+    width: 45%;
     margin-left: 0;
     padding-left: 0;
 }
