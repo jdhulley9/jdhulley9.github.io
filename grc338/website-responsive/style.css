@@ -53,7 +53,9 @@ figure{
     margin-left: 0;
     padding-left: 0;
 }
-
+footer{
+    background-color: (218, 165, 32);
+}
 img {
     width: 100%; 
 }
